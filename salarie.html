@@ -13,8 +13,33 @@
 <body>
     <div class="container">
         <div class="info">
-            <label for="nom">nom :</label>
-            <input type="text" placeholder="entre votre nom :" id="nom">
+            <div class="input">
+                <label for="nom">nom :</label>
+                <input type="text" placeholder="entre votre nom" id="nom">
+            </div>
+            <div class="input">
+                <label for="nom">Prénom :</label>
+                <input type="text" placeholder="entre votrePrénom" id="Prenom">
+            </div>
+            <div class="input">
+                <label for="nom">Salire :</label>
+                <input type="text" placeholder="entre votre Salire" id="salire">
+            </div>
+            <div class="input">
+                <label for="statut">statut familial</label>
+                <input type="radio"><label for="marie">marié</label>
+                <span>Ou</span>
+                <input type="radio"><label for="celibataire">celibataire</label>
+            </div>
+            <div class="enfant" hidden>
+
+            </div>
+            <div class="submitCalcul" hidden>
+                <button type="submit">Calcul</button>
+                <div class="total">
+
+                </div>
+            </div>
         </div>
     </div>
 </body>
