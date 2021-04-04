@@ -22,12 +22,17 @@
         display: block;
     }
     
+    .container .info .input>label {
+        font-weight: 600;
+        color: #002e63;
+    }
+    
     .container .info .input.name {
         display: inline-block;
     }
     
     .container .info .input>input {
-        width: 60wv;
+        width: 100%;
         height: 40px;
         padding: 5px;
         font-size: 20px;
@@ -37,6 +42,8 @@
     .container .info .input.radio>span {
         text-align: center;
         margin-left: 20px;
+        font-weight: bolder;
+        color: #5d5d5d;
     }
     
     .container .info .input.radio>input {
