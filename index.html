@@ -11,33 +11,38 @@
 
 <body>
     <div class="container">
-        <div class="info">
-            <div class="input name">
-                <label for="nom">nom :</label>
-                <input type="text" placeholder="entre votre nom" id="nom">
-            </div>
-            <div class="input name">
-                <label for="nom">Prénom :</label>
-                <input type="text" placeholder="entre votre Prénom" id="prenom">
-            </div>
+
+        <div class="input name">
+            <label for="nom">nom :</label>
+            <input type="text" placeholder="entre votre nom" id="nom">
+        </div>
+        <div class="input name">
+            <label for="nom">Prénom :</label>
+            <input type="text" placeholder="entre votre Prénom" id="prenom">
+        </div>
+        <div class="input">
+            <label for="nom">Salire :</label>
+            <input type="text" placeholder="entre votre Salire" id="salire">
+        </div>
+        <div class="input radio name">
+            <label for="statut">statut familial</label>
+            <input type="radio" name="statut" id="marie"><label for="marie">marié</label>
+            <span>Ou</span>
+            <input type="radio" name="statut" id="celibataire"><label for="celibataire">celibataire</label>
+        </div>
+        <div class="enfant" hidden>
             <div class="input">
-                <label for="nom">Salire :</label>
-                <input type="text" placeholder="entre votre Salire" id="salire">
+                <label for="nom">nombre des enfant :</label>
+                <input type="number" placeholder="Choisissez le nombre d'enfants" id="salire" min="1" max="10">
             </div>
-            <div class="input radio name">
-                <label for="statut">statut familial</label>
-                <input type="radio" name="statut" id="marie"><label for="marie">marié</label>
-                <span>Ou</span>
-                <input type="radio" name="statut" id="celibataire"><label for="celibataire">celibataire</label>
-            </div>
-            <div class="enfant" hidden>
+            <div class="enfantChild">
 
             </div>
-            <div class="submitCalcul" hidden>
-                <button type="submit">Calcul</button>
-                <div class="total">
+        </div>
+        <div class="submitCalcul">
+            <!-- <button type="submit">Calcul</button> -->
+            <div class="total">
 
-                </div>
             </div>
         </div>
     </div>

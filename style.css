@@ -1,54 +1,54 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    .container {
-        background: rgb(238, 174, 202);
-        background: linear-gradient(135deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-        width: 50%;
-        margin: 20px auto;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        /* text-align: center; */
-        padding: 20px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 25px;
-    }
-    
-    .container .info .input {
-        display: block;
-    }
-    
-    .container .info .input>label {
-        font-weight: 600;
-        color: #002e63;
-    }
-    
-    .container .info .input.name {
-        display: inline-block;
-    }
-    
-    .container .info .input>input {
-        width: 100%;
-        height: 40px;
-        padding: 5px;
-        font-size: 20px;
-        margin: 10px 0;
-    }
-    
-    .container .info .input.radio>span {
-        text-align: center;
-        margin-left: 20px;
-        font-weight: bolder;
-        color: #5d5d5d;
-    }
-    
-    .container .info .input.radio>input {
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        margin: 0 5px 0 20px;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(135deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.container .input>label {
+    font-weight: 600;
+    color: #002e63;
+}
+
+.container .input.name {
+    display: inline-block;
+}
+
+.container .input>input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.container .input.radio>span {
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: #5d5d5d;
+}
+
+.container .input.radio>input {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px 0 20px;
+}
+
+.container .total {
+    display: block;
+    text-align: unset;
+    color: #000;
+    font-weight: bolder;
+    margin: 20px auto;
+    width: fit-content;
+}
